@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These are the options displayed in the category drop-down Spinner -->
+    <string-array name="array_category_options">
+        <item>@string/goods</item>
+        <item>@string/materials</item>
+    </string-array>
+
+
+
+</resources>

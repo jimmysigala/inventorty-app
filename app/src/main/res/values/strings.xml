@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="name">Name</string>
+    <string name="image">Image</string>
+    <string name="quantity">Quantity: </string>
+    <string name="quantity2">Quantity</string>
+    <string name="description">Description</string>
+    <string name="price">Price: $</string>
+    <string name="price2">Price</string>
+    <string name="email">Supplier Email</string>
+    <string name="category">Category</string>
+    <string name="goods">Goods</string>
+    <string name="materials">Materials</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="contact_info">Contact info</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+    <string name="empty_view_subtitle_text">Get started by adding adding an item</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="fields">All fields must be filled out</string>
+    <string name="numeric">Price and Quantity must be numeric</string>
+    <string name="sold">Sold</string>
+    <string name="negative">All fields must have positive numbers</string>
+
+
+    <string name="editor_delete_item_successful">Item deleted</string>
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+    <string name="delete_dialog_msg">Delete this item?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp"
+              android:weightSum="1">
+
+    <EditText
+        android:id="@+id/edit_item_name"
+        android:hint="@string/name"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle"
+        android:maxLength="50"/>
+
+    <ImageView
+        android:id="@+id/edit_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_add_a_photo_black_48dp" />
+
+
+    <EditText
+        android:id="@+id/edit_item_quantity"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/quantity2"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/edit_item_price"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/price2"
+        android:inputType="textCapWords"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/decQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="-"
+        android:focusable="false"/>
+
+    <Button
+        android:id="@+id/incQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="+"
+        android:focusable="false"/>
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/email"
+        android:paddingTop="16dp"
+        android:inputType="textCapWords"/>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Order"
+        android:focusable="false"/>
+
+
+
+
+
+</LinearLayout>
